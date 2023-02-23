@@ -6,6 +6,14 @@ const fs = require('fs');
 //     console.log(err);
 // });
 
-fs.appendFile("read.txt", " please update my profile image", (err) => {
-    console.log("file update successfully");
+// fs.appendFile("read.txt", " please update my profile image", (err) => {
+//     console.log("file update successfully");
+// })
+
+fs.readFile("read.txt","utf8",(err, date) => {
+   if (err) {
+    console.error(err);
+    return;
+   }
+     console.log(date);
 })
