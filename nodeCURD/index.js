@@ -15,3 +15,5 @@ const fs = require("fs");
 // });
 
 // fs.unlinkSync("testing/bio.txt"); // remove the file from  current folder
+
+fs.rmdirSync("testing"); // remove folder
