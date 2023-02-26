@@ -10,10 +10,10 @@ const fs = require('fs');
 //     console.log("file update successfully");
 // })
 
-fs.readFile("read.txt","utf8",(err, date) => {
-   if (err) {
-    console.error(err);
-    return;
-   }
-     console.log(date);
-})
+// fs.readFile("read.txt","utf8",(err, date) => {
+//    if (err) {
+//     console.error(err);
+//     return;
+//    }
+//      console.log(date);
+// })
